@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "case": "ordinary-flow-skips-both-optional-routes",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "case": "exact-contract-sample-confirmation-cost-breakdown-and-trial-baseline",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "case": "exact-pricing-unknown-fee-and-edit-preservation",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "case": "provider-only-no-numeric-savings",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "case": "explicit-unknown-no-numeric-savings",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "case": "incompatible-baseline-no-invented-today-cost",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "case": "sample-cancel-no-mutation-edit-reconfirmation-and-clear",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "case": "new-supply-clears-contract-and-allows-sample-without-baseline",
+      "width": 360,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "failedResponses": [],
+  "externalRequests": []
+}

@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "case": "cost-details-compare-third-offer-return-state",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "case": "one-discovery-two-categories-full-discount",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "case": "fixed-priority-cheaper-variable-alternative",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "case": "overlapping-category-tie",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "case": "fixed-category-tie",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "case": "dual-breakdown-rounding",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "case": "unknown-condition-and-incompatible-offer-no-fake-amount",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "case": "keyboard-and-focus-restoration",
+      "width": 360,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "failedResponses": [],
+  "externalRequests": []
+}

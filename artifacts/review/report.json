@@ -1,0 +1,99 @@
+{
+  "cases": [
+    {
+      "case": "existing-manual-single",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "case": "new-indicative-unknown",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "case": "existing-sample-dual-discount-one-winner-many-roles",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "case": "new-manual-dual-tiny-rounding",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "case": "existing-manual-single",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "case": "new-indicative-unknown",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "case": "existing-sample-dual-discount-one-winner-many-roles",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "case": "new-manual-dual-tiny-rounding",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "case": "existing-manual-single",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "case": "new-indicative-unknown",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "case": "existing-sample-dual-discount-one-winner-many-roles",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "case": "new-manual-dual-tiny-rounding",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "case": "regression-unknown-dual-global-proof-and-valid-unified-pair",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "case": "regression-unknown-dual-global-proof-and-valid-unified-pair",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "case": "cancel-edit-retains-trial-and-range-resubmit-replaces-them",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "case": "range-precision-single-point-accessible-errors-debounced-status-keyboard",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "case": "desktop-internal-back-and-reload-session-disclosure",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "case": "keyboard-skip-link-and-primary-button-contrast",
+      "width": 1440,
+      "contrast": 7.66,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "failedResponses": [],
+  "externalRequests": []
+}
