@@ -1,0 +1,40 @@
+.trial-controls { display: grid; gap: 12px; }
+.trial-controls > label, .trial-zone > label, .range-fields label { display: block; font-size: .87rem; font-weight: 600; }
+.trial-controls input[type='text'], .range-fields input { width: 100%; min-width: 0; min-height: 50px; background: white; color: var(--ink); border: 1px solid #91a38c; border-radius: 9px; padding: 10px 13px; }
+.trial-controls input[aria-invalid='true'] { border: 2px solid #9a2c25; }
+.trial-controls input[type='range'] { width: 100%; height: 44px; accent-color: var(--green); margin: 0; }
+.trial-shortcuts { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.chip-button { border: 1px solid #bac9ad; border-radius: 8px; background: #f2f5e9; color: var(--green); padding: 8px 10px; font-size: .76rem; }
+.trial-zone { padding-block: 14px; border-top: 1px solid var(--line); }
+.trial-zone input { margin: 8px 0; }
+.trial-conditions { border-top: 1px solid var(--line); padding-top: 15px; }
+.trial-conditions fieldset { border: 0; margin: 0 0 18px; padding: 0; min-width: 0; }
+.trial-conditions legend { font-size: .87rem; font-weight: 600; margin-bottom: 8px; }
+.trial-radio-group { display: flex; flex-wrap: wrap; gap: 8px; }
+.trial-radio-group label { display: flex; align-items: center; gap: 6px; min-height: 46px; border: 1px solid #c2cfb6; border-radius: 8px; padding: 8px; background: white; font-size: .78rem; }
+.trial-radio-group label:has(input:checked) { background: #eaf1df; border-color: var(--green); }
+.trial-radio-group input { width: 18px; height: 18px; accent-color: var(--green); margin: 0; }
+.trial-outcome, .winner-change { background: #eaf1e1; border: 1px solid #d1dfc4; border-radius: 12px; padding: 17px; margin-top: 25px; font-size: .86rem; }
+.trial-outcome h2 { margin: 8px 0; }
+.trial-outcome [data-testid='trial-global-winner'] { font-weight: 650; font-size: 1.12rem; }
+.trial-outcome p, .winner-change p { margin-top: 8px; }
+.trial-outcome ul { padding-left: 18px; margin-bottom: 0; }
+.trial-error { margin: 22px 0; padding: 16px; background: #fff0e8; border: 1px solid #bd6a52; border-radius: 10px; font-size: .85rem; color: #792b20; }
+.trial-error p { margin-top: 8px; }
+.trial-analysis, .trial-breakdown { margin-top: 20px; border-block: 1px solid var(--line); padding: 8px 0; font-size: .85rem; }
+.trial-analysis > p { margin: 12px 0; }
+.range-fields { display: grid; gap: 14px; margin: 16px 0; }
+.range-fields input { margin-top: 7px; }
+.trial-entry { margin-top: 14px; }
+.what-if { padding-bottom: 15px; }
+html:has(.what-if) { scroll-padding-top: 120px; scroll-padding-bottom: 20px; }
+.what-if input, .what-if button, .what-if select, .what-if summary { scroll-margin-top: 120px; scroll-margin-bottom: 20px; }
+.trial-live-summary { position: sticky; z-index: 4; top: 8px; align-self: start; width: 100%; background: #245d4b; color: white; border: 1px solid #9bb39e; padding: 12px 15px; border-radius: 12px; box-shadow: 0 4px 20px #15332730; pointer-events: none; }
+.trial-live-summary span, .trial-live-summary strong { display: block; font-size: .73rem; line-height: 1.5; }
+.trial-live-summary strong { font-size: .86rem; margin-top: 3px; }
+.trial-ranking { list-style: none; padding: 0; }
+.trial-ranking li { padding: 12px 0; border-bottom: 1px solid var(--line); }
+.trial-ranking span, .trial-ranking strong, .trial-ranking small { display: block; }
+.what-if .pair-selectors { margin-top: 15px; }
+.what-if .pair-table { font-size: .75rem; }
+@media (min-width: 500px) { .range-fields { grid-template-columns: 1fr 1fr; } .what-if .pair-table { font-size: .86rem; } }
