@@ -8,7 +8,7 @@ export function scenario(overrides: Partial<UserScenario> = {}): UserScenario {
 export const total = (quantity: string, days = 30): Consumption => ({ quantity_mode: 'TOTAL', total_kwh: quantity, period_days: days });
 export const split = (normal: string, reduced: string, days = 30): Consumption => ({ quantity_mode: 'SPLIT', normal_kwh: normal, reduced_kwh: reduced, period_days: days });
 
-/** Literal expected values independently derived in VERIFIED_EXAMPLES.md, never calculated by the implementation. */
+/** Literal expected values independently derived in docs/VERIFIED_EXAMPLES.md, never calculated by the implementation. */
 export const verifiedCases: readonly { id: string; input: UserScenario; totals: readonly (number | null)[]; cheapest: readonly string[]; fixed: readonly string[] }[] = [
   { id: 'E01', input: scenario({ consumption: total('900', 90), condition_answers: { e_bill:'YES',direct_debit:'NO' } }), totals: [5000,4600,4300,5700,null], cheapest: ['B1'], fixed: ['A2'] },
   { id: 'E02', input: scenario({ consumption: total('150'), priority: 'FIXED_RATE' }), totals: [2600,2800,2350,3000,null], cheapest: ['B1'], fixed: ['A1'] },
